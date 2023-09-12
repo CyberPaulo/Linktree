@@ -4,10 +4,19 @@ function toggleMode () {
 
     const img = document.querySelector('#profile img')
 
+    const heart = document.querySelector('#heartIcon')
+
     if (html.classList.contains('light')) {
 
     img.setAttribute("src", "./assets/avatar-light.png")
     } else {
             img.setAttribute("src", "./assets/avatar.png")
+    }
+
+    if (html.classList.contains('light')) {
+        heart.setAttribute("name", "heart-half-outline")
+
+    } else { 
+        heart.setAttribute("name", "heart-outline")
     }
 }

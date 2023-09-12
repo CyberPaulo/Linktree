@@ -12,6 +12,7 @@
     --surface-color-hover: rgba(0, 0, 0, 0.1);
     --highlight-color: rgba(255, 255, 255, 0.1);
     --switch-bg-url: url(./assets/moon-stars.svg);
+    --heart-icon: ♡
 }
 
 .light {
@@ -22,6 +23,7 @@
     --surface-color-hover: rgba(0, 0, 0, 0.2);
     --highlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/sun.svg)
+    --heart-icon: ♥
 }
 
 body { 
